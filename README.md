@@ -1,73 +1,75 @@
 Titanic Data Analysis and Dashboard
 Project Overview
-This project analyzes the passenger data of the RMS Titanic to explore survival patterns based on demographic and travel-related attributes. Using Excel, the dataset is cleaned, prepared, and summarized with pivot tables, leading to an interactive dashboard that visualizes critical insights about who survived the disaster and factors influencing survival rates.
+This project analyzes the passenger data of the RMS Titanic to explore survival patterns based on demographic and travel-related attributes. Using Excel, the dataset is cleaned, prepared, and summarized with pivot tables, leading to an interactive dashboard that visualizes critical insights about who survived the disaster and the factors influencing survival rates.
 
 Dataset
-The dataset includes information on 889 passengers, containing the following key attributes:
+The dataset comprises information on 889 passengers, with the following key attributes:
 
-PassengerId: Unique identifier
+PassengerId: Unique identifier for each passenger
 
 Survived: Survival status (0 = No, 1 = Yes)
 
 Pclass: Passenger class (1st, 2nd, 3rd)
 
-Name, Gender, Age (grouped into brackets: Baby, Adolescent, Middle Aged, Seniors)
+Name, Gender, Age: With ages grouped into brackets (Baby, Adolescent, Middle Aged, Seniors)
 
-Number of Siblings/Spouses aboard
+Number of Siblings/Spouses Aboard
 
-Number of Parents/Children aboard
+Number of Parents/Children Aboard
 
 Ticket Number
 
-Fare (grouped by fare ranges)
+Fare: Grouped by fare ranges for analysis
 
 Cabin Number
 
-Port of Embarkation (Cherbourg, Queenstown, Southampton)
+Port of Embarkation: (Cherbourg, Queenstown, Southampton)
+
+This structured dataset provides a comprehensive overview for discovery of survival trends and relationships across multiple passenger attributes.
 
 Data Analysis
-Survival rates were analyzed by gender, age groups, and passenger class, showing women and children had higher survival chances.
+Survival Rate Analysis: Explored survival rates by gender, age groups, and passenger class, with results showing that women and children had higher survival chances.
 
-Pivot tables summarize survival counts and total passengers by combinations of gender and age brackets, revealing detailed survival distributions.
+Pivot Tables: Summarized survival counts and total passengers by combinations of gender and age brackets, revealing nuanced distributions.
 
-Fare averages were analyzed by port of embarkation and passenger class, highlighting correlation between fare paid and class.
+Fare Analysis: Compared fare averages across ports of embarkation and passenger classes to identify correlations.
 
-Family relationships aboard (siblings/spouses, parents/children) were considered for their impact on survival.
+Family Relationships: Incorporated analysis of siblings/spouses and parents/children aboard to evaluate their impact on survival probability.
 
-Missing and zero ages were treated and categorized appropriately to maintain analysis integrity.
+Data Integrity: Treated missing and zero ages appropriately, ensuring categorical grouping maintained analysis accuracy.
 
 Dashboard
-The dashboard on the third sheet is an interactive Excel visualization showcasing:
+The dashboard included on the third sheet of the Excel file presents:
 
-Total number of passengers vs. survived passengers by gender and age group.
+Total Passengers vs. Survived: Visualized by gender and age group.
 
-Survival distribution across passenger classes.
+Survival Distribution: Across different passenger classes.
 
-Average fare paid by embarkation port and class.
+Fare Insights: Average fare paid analyzed by port of embarkation and class.
 
-Key demographic insights with clear and concise visualization controls for quick exploratory data analysis.
+Key Demographic Visualizations: Clear controls for quick exploration of various factors affecting survival.
 
-This dashboard serves as a quick reference to understand how various factors affected passenger survival during the Titanic disaster.
+This dashboard acts as an efficient reference point to quickly understand how demographic and travel-related attributes influenced survival outcomes during the Titanic disaster.
 
 How to Use This Project
 Open the Excel file.
 
-Navigate to the "Dashboard" sheet for visual summaries.
+Navigate to the "Dashboard" sheet for interactive visual summaries.
 
-Review the "Working Sheet" for the cleaned data and detailed analysis.
+Review the "Working Sheet" for cleaned data and in-depth analysis.
 
-Analyze pivot tables for statistical breakdowns by categories.
+Examine pivot tables for statistical summaries across different categories.
 
 Technologies Used
-Microsoft Excel (Data cleaning, Pivot Tables, Data Visualization)
+Microsoft Excel: For data cleaning, pivot table creation, and data visualization
 
-Basic Excel formulas and filtering for data preparation
+Basic Excel Formulas & Filtering: To prepare and analyze data
 
-Interactive dashboard construction within Excel environment
+Dashboarding: Interactive dashboards constructed within the Excel environment
 
 Potential Extensions
-Integrate advanced Excel formulas or Power Query for further automation.
+Integrate advanced Excel formulas or Power Query for data automation.
 
-Use Excel Power BI for more dynamic and scalable dashboards.
+Employ Excel Power BI for more dynamic, scalable dashboards.
 
-Perform predictive analytics using machine learning tools based on the cleaned dataset.
+Expand the analysis with predictive modeling using machine learning tools based on the prepared dataset.
